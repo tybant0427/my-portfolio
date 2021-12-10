@@ -1,0 +1,17 @@
+header {
+    font-family: fantasy;
+    padding: 100px;
+    background-image: url("pexels-abdullah-ghatasheh-1631677.jpg");
+}
+
+header h1 {
+    color: silver;
+    text-align: left;
+    font-size: 75px;
+    text-shadow: 3px 3px 5px white, 0 0 1em rgb(46, 123, 156), 0 0 0.2em rgb(71, 130, 167);
+}
+
+header h2 {
+    color: white;
+    font-family: sans-serif;
+}
