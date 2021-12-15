@@ -5,32 +5,138 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Tyler's Portfolio</title>
 </head>
-<body>
-    
-    <header>
-        <h1>I'm Tyler</h1>
-        <div id=nice>
-            <p>Nice to meet you..</p>
+
+<!--------Top of page and navigation------->
+
+        <header>
+            <h1>I'm Tyler</h1>
+            <div id="nice">
+            <p>Lets Create.</p>
+            </div>
+        
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#about-me">About Me</a>
+                    </li>
+                    <li>
+                        <a href="#project">Projects</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </header> 
+
+        <!-------About Me Section------------>
+
+    <body>  
+        <div class="about">
+            <h2>About Me</h2>
+                <div class="avatar"></div>
+                    <p>
+                        I am a novice full stack web developer based out of the Twin Cities, MN. I am 30 years old and I have a beautiful wife and 2 energetic corgis at home. We love traveling, seeing live music, eating exotic food, snowboarding, and we love creating things. Wether its music, photography, videos, or just a delicious meal, we love to make things! Growing up, I always had a passion for art, design, and technology. After spending way to long in the concrete construction industry, I’m ready to start expanding my horizons to something new. I’ve never been more excited to start this new chapter of my life in web development! My top goal is to ultimately have a career I can pursue remotely, so that I can spend more time traveling with my family and start enjoying all the amazing moments that I have long missed out on by having to work my construction job 50-60 hrs/week. Thanks for checking out my portfolio. More to come!  
+                    </p>
         </div>
-        
-        
-        <nav>
+
+    <!-------------Projects Gallery---------->
+
+        <div id=project class="projects">
+            <h3>Projects</h3>
+            <div class="project-1">
+                <div class="overlay">
+                    <a href="#">Project 1</a>
+                </div> 
+            </div>       
+            <div class="project-2">
+                <div class="overlay">
+                    <a href="#">Project 2</a>
+                </div>
+            </div>        
+            <div class="project-3">
+                <div class="overlay">
+                    <a href="#">Project 3</a>
+                </div>
+            </div>  
+        </div>
+
+        <!----------Contact Form-------->
+
+        <div id=contact class="wrapper">
+            <div class="content">
+                <h4>Contact</h4>
+                <p>Connect with Me.</p>
+            </div>
+
+            <div class="form">
+                <div class="top-form">
+                    <div class="inner-form">
+                        <div class="label">Name</div>
+                        <input type="text" placeholder="john">
+                    </div>
+                    <div class="inner-form">
+                        <div class="label">Email</div>
+                        <input type="text" placeholder="my-email@gmail.com">
+                    </div>
+                    <div class="inner-form">
+                        <div class="label">Phone</div>
+                        <input type="text" placeholder="5555551234">
+                    </div>
+                </div>
+
+                <div class="middle-form">
+                    <div class="inner-form">
+                        <div class="label">Subject</div>
+                        <input type="text" placeholder="subject">
+                    </div>
+                </div>
+
+                <div class="bottom-form">
+                    <div class="inner-form">
+                        <div class="label">Your Message</div>
+                        <textarea placeholder="your message"></textarea>
+                    </div>
+                </div>
+                <div class="btn">Send Form</div>
+            </div>
+        </div>  
+
+
+            <!-- social media icons -->
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    </body>
+
+
+    <!--Bottom of page and social media links-->
+
+    <footer>
+        <div class="social">
             <ul>
                 <li>
-                    <a href="contact">Contact</a>
+                    <a href="http://www.Facebook.com/">
+                    <ion-icon name="logo-facebook"></ion-icon>
+                    </a>
                 </li>
                 <li>
-                    <a href="projects">Projects</a>    
+                    <a href="https://www.linkedin.com/in/tyler-bantley-314235226/">
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                    </a>
                 </li>
                 <li>
-                    <a href="resume">Resume</a>
+                    <a href="https://github.com/tybant0427">
+                    <ion-icon name="logo-github"></ion-icon>
+                    </a>
                 </li>
-                <li> 
-                    <a href="about me">About Me</a>
-                </li>   
             </ul>
-        </nav>
-    </header>                 
+        </div>
 
-</body>
+    </footer>
+
 </html>
+    
+
+
+    
