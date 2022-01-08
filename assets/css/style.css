@@ -132,21 +132,21 @@ h3 {
 .projects .project-1 {
     margin-left: 2%;
     margin-right: 1.5%;
-    background-image: url(../Image-Coming-Soon-Placeholder.png);
+    background-image: url(../Acoustic-vs-Classical-Guitar.jpeg);
     background-size: cover;
 }
 
 .projects .project-2 {
     margin-left: 1%;
     margin-right: 1%;
-    background-image: url(../Image-Coming-Soon-Placeholder.png);
+    background-image: url(../planner.png);
     background-size: cover;
 }
 
 .projects .project-3 {
     margin-left: 1.5%;
     margin-right: 2%;
-    background-image: url(../Image-Coming-Soon-Placeholder.png);
+    background-image: url(../weather-app.png);
     background-size: cover;
 }
 
